@@ -1,0 +1,137 @@
+header{
+	background:#252c33;
+	background size: cover;
+	margin:0;
+	padding: 0px 0px 15px 0px;
+	text-align:center;
+	background-position: center;
+	
+}
+header nav h1{
+  font: 70px 'Great Vibes', Helvetica, sans-serif;
+  color: #7a848d;
+  text-shadow: 3px 3px 3px #000000;
+  margin:5px;
+}
+
+header nav h3{
+  font: 22px 'Berkshire Swash', Helvetica, sans-serif;
+  color: #7a848d;
+  text-shadow: 3px 3px 3px #000000;
+  margin:5px;
+}
+
+body{
+	margin:0;
+	background: #343d46;
+}
+
+nav{
+	margin:0;
+}
+
+footer{
+	text-align:center;
+	clear:both;
+}
+
+img {
+	border-radius: 15px;
+}
+
+
+.col{
+	border-radius: 5px;
+	display: inline-block;
+	padding:3% 0;
+	margin-left: 20%;
+	width: 20%;
+	background: none;
+	text-align:center;
+	float:left;
+  z-index: 5;
+
+}
+.search_bar{
+
+	float:right;
+	position: relative;
+  	top: -38px;
+  	left: -15px;
+}
+
+
+.container-1 input#search{
+  width: 250px;
+  height: 40px;
+  background: #343d46;
+  border: none;
+  font-size: 10pt;
+  float: left;
+  color: #7a848d;
+  padding-left: 15px;
+  border-radius:5px
+}
+
+.title{
+  font: 22px 'Pacifico', Helvetica, sans-serif;
+  color: black;
+  margin:5px;
+}
+
+.sidebar {
+    height: 100%; 
+    width: 150px; 
+    position: fixed; 
+    z-index: 1; 
+    top: 50; 
+    left: 0;
+    background-color: #252c33; 
+    /*overflow-x: hidden; */
+    padding-top: 20px;
+    padding-left: 7px;
+    font-family: 'Alike Angular';font-size: 18px
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+}
+
+.sidebar a {
+	font-family: 'Alike Angular';font-size: 18px
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #7a848d;
+    display: block;
+}
+
+.bottomcomp{
+  position:relative;
+  bottom:-145%;
+  right: -10%;
+  z-index: 4;
+  float:right;
+}
+
+.bottomstuff {
+  position:relative;
+  bottom:-10%;
+  clear:both;
+}
+
+.btext h1{
+  position:relative;
+  top:-272px;
+  left:9%;
+  text-align: left;
+  font: 35px 'Pacifico', Helvetica, sans-serif;
+}
+.btext p{
+  position:relative;
+  top:-272px;
+  left:9%;
+  text-align: left;
+  font-family: 'Alike Angular';font-size: 18px
+}

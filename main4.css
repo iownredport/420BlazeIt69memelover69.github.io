@@ -1,0 +1,116 @@
+header{
+	background:#252c33;
+	background size: cover;
+	margin:0;
+	padding: 0px 0px 15px 0px;
+	text-align:center;
+	background-position: center;
+	
+}
+header nav h1{
+  font: 70px 'Great Vibes', Helvetica, sans-serif;
+  color: #7a848d;
+  text-shadow: 3px 3px 3px #000000;
+  margin:5px;
+}
+
+header nav h3{
+  font: 22px 'Berkshire Swash', Helvetica, sans-serif;
+  color: #7a848d;
+  text-shadow: 3px 3px 3px #000000;
+  margin:5px;
+}
+
+body{
+	margin:0;
+	background: #343d46;
+}
+
+nav{
+	margin:0;
+}
+
+footer{
+	text-align:center;
+	clear:both;
+}
+
+img{
+	position:relative;
+	right:-30%;
+  border-radius: 5px;
+}
+
+ .hello{
+  text-align:center;
+  font-family: 'Alike Angular';
+  font-size: 30px;
+  position:relative;
+  color: #7a848d;
+}
+ .hello2{
+ 	
+ 	  text-align:center;
+  font-family: 'Alike Angular';
+  font-size: 30px;
+  position:relative;
+  color: #7a848d;
+}
+
+
+
+.search_bar{
+  clear:both;
+	float:right;
+	position: relative;
+  top: -38px;
+  left: -15px;
+}
+
+
+.container-1 input#search{
+  width: 250px;
+  height: 40px;
+  background: #343d46;
+  border: none;
+  font-size: 10pt;
+  float: left;
+  color: #7a848d;
+  padding-left: 15px;
+  border-radius:5px
+}
+
+.title {
+  font-family: 'Alike Angular';
+  color: #7a848d;
+  margin:0% 0% 0% 10%;
+}
+
+.sidebar {
+    height: 100%; 
+    width: 150px; 
+    position: fixed; 
+    z-index: 1; 
+    top: 50; 
+    left: 0;
+    background-color: #252c33; 
+    /*overflow-x: hidden; */
+    padding-top: 20px;
+    padding-left: 7px;
+    font-family: 'Alike Angular';
+    font-size: 18px
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+}
+
+.sidebar a {
+	font-family: 'Alike Angular';font-size: 18px
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #7a848d;
+
+}
